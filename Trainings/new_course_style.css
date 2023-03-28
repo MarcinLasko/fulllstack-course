@@ -1,0 +1,130 @@
+body {
+    background-color: #FCFFE7;
+   }
+
+.top_text {
+    height: 20vh;
+    display:flex;
+    flex-direction: row;
+}
+
+.top_text div {
+    display: flex;
+    flex: 1;
+    background-color: #FCFFE7;
+}
+
+.top_div {
+    display: flex;
+    justify-content: center;
+}
+
+#my_training_btn {
+    margin-top: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 47px;
+    background: #2B3467;
+    border-radius: 40px;
+    color: #FCFFE7;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.top_div_course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #2B3467;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 2fr) 1fr 0;
+    grid-template-rows: 0.5fr repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.left { 
+    grid-area: 2 / 1 / 5 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+
+.right { 
+    grid-area: 2 / 3 / 5 / 5; 
+        display: flex;
+        justify-content: right;
+        align-items: right;
+     }
+
+
+.long_text_area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 0px;
+    width: 70vh;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px #484747;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: black;
+    border: none;
+}
+
+.short_text_area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+    width: 30vh;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px #484747;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: black;
+    border: none;
+    
+    
+}
+
+
+
+
+
+
+  .short_text {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: grey;
+    padding-top:0;
+    display: flex;
+  }
+
+  input::placeholder {
+    color: black;
+    font-weight: 600;
+  }

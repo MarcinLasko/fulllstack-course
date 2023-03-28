@@ -1,0 +1,167 @@
+body {
+ background-color: #FCFFE7;
+}
+
+.top_text {
+    height: 20vh;
+    display:flex;
+    flex-direction: row;
+}
+
+.top_text div {
+    display: flex;
+    flex: 1;
+    background-color: #FCFFE7;
+}
+
+.top_div {
+    display: flex;
+    justify-content: center;
+}
+
+#my_training_btn {
+    margin-top: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 47px;
+    background: #2B3467;
+    border-radius: 40px;
+    color: #FCFFE7;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.top_div_course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #2B3467;
+}
+
+.courses_pads {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    height: 300px;
+    
+}
+
+.courses_pads div {
+    background-color: #F9F5EB;
+    display: flex;
+    justify-content: center;
+}
+
+
+.courses_label {
+    
+    width: 342px;
+    height: 552px;
+    background: #F9F5EB;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.course_name {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #2B3467;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.training_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 0.7fr 1.2fr 1.2fr 1.2fr 0.7fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". first second third ."
+      ". . . . ."; 
+  }
+  .first { grid-area: first; }
+  .second { grid-area: second; }
+  .third { grid-area: third; }
+
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .info-box {
+    width: 40vh;
+    height: 60vh;
+    background: #F9F5EB;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+
+  .trainings-item {
+    margin-top: 3vh;
+    font-size: 25px; 
+    font-weight: 200;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 10px;
+    
+  }
+
+  .course-name {
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: #2B3467;
+    
+  }
+
+  .apply-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 165px;
+    height: 47px;
+    border-style: none;
+    background: #EB455F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #FCFFE7;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5%; 
+  }
+
+  .btn-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
